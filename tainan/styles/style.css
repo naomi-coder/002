@@ -1,0 +1,1164 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 auto;   
+  padding: 0px;   
+  max-width: 1366px;
+  overflow-x: hidden;  
+  margin: 0,auto;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.contain {
+  margin: 0 auto;
+}
+
+.gMenu .menuBtn{
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  color: #fff;
+  z-index: 101;  
+  position: relative;
+  margin: 0;
+  bottom: 3vw;
+}
+.menu .menuMenu {
+  display: none;
+}
+
+.headeLogo {
+  padding-left: 84px;
+}
+
+header nav ul {
+  display: flex;
+  padding-right: 84px;
+  color:#ffffff;
+}
+
+header nav ul li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: "Zen Kaku Gothic New";
+  font-weight: bold;
+  list-style:none;
+}
+
+header .gMenu .menu li {
+  color: #fff;
+}
+
+header nav ul li a {
+ text-decoration: none;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+.headeLogo img {
+  display: block;
+}
+.logo img {
+  display: block;
+}
+
+.threeAreas {
+  background-color: #ffffff; 
+  margin: 0 80px 0 80px;  
+}
+
+.mainVisual {
+  top: -144px;
+  left: 0; 
+  z-index: 0;
+  background-image: url(../images/pcHeroFullTainan.png);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 768px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.mainLogo {
+  display: block;
+  margin-top: 94px;
+  width: 300px;
+  height: 539.82px;
+}
+
+.mainVisual .contain {
+   position: relative; 
+}
+.mainVisual nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.mainVisual nav ul {
+  margin-top: -144px;
+}
+
+.mainVisual nav ul li {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.mainVisual nav p {
+  position: relative;
+  right: 0;
+  margin-top: -94px;
+  margin-left: 520px;
+  text-align: left;
+  color: #ffffff;
+  z-index: 100;
+}
+
+.breadCrumb {
+  margin-top: -148px;
+  background-color: #f4f4f4;
+  padding: 0.5rem;
+}
+
+.breadCrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left:0;
+}
+
+.breadCrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0.25rem;
+  content: ">";
+  list-style:none;
+}  
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.include {
+  position: relative;
+  width:530px;
+  height: 96px;
+  margin: 20px;
+}
+.include img{
+  width:100%;
+}
+.include h2 {
+  position: absolute;
+  top: 20px;
+  left: 102px;   
+  font-size: 48px;
+  color: #000000;
+  padding:0;
+  margin:0;
+}
+
+.annpei ul {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  padding-left:0;
+}
+
+.annpei ul li img {
+  width: 600px;
+  height: 304px;
+  margin: 20px 0;
+}
+.annpei ul li p {
+  background-color: #64c99c20;
+  font-size:20px;
+  text-align: left;
+  width: 500px;
+  height: 304px;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.annpei ol {
+  display: flex;
+  margin-left: 20px;
+  }
+.annpei ol div {
+  display: flex;
+}
+.annpei ol li {
+  list-style:none;
+}
+.annpei ol li img {
+  width: 290px;
+  height: 167px;
+  margin: 20px;
+}
+.annpei ol li p {
+  background-color: #64c99c20;
+  font-size: 20px;
+  text-align: left;
+  width: 500px;
+  height: 160px;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.underline {
+  display: block;
+  width: 480px; 
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.sekikan ul {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  padding-left:0;
+}
+.sekikan ul li{
+  list-style:none;
+}
+.sekikan ul li img {
+  object-fit: cover;
+  width: 600px;
+  height: 336px;
+  margin: 20px 60px 20px 20px;
+  padding-right: 40px;
+  box-sizing: content-box;
+}
+.sekikan ul li p {
+  background-color: #64c99c20;
+  font-size:20px;
+  text-align: left;
+  width: 500px;
+  height: 336px;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sekikan ol {
+  display: flex;
+  margin-left: 20px;
+}
+.sekikan ol div {
+  display: flex;
+}
+.sekikan ol li {
+  list-style:none;
+}
+.sekikan ol li img {
+  width: 290px;
+  height: 167px;
+  margin: 20px;
+}
+.sekikan ol li p {
+  background-color: #64c99c20;
+  font-size: 20px;
+  text-align: center;
+  width: 500px;
+  height: 167px;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sekikanLight {
+  text-align: center;
+}
+#sekikanTime {
+  font-weight: bold;
+}
+
+.includeRight {
+  position: relative;
+  left: 610px;   
+  width:530px;
+  height: 96px;
+}
+.includeRight img{
+  width:100%;
+}
+.includeRight h2 {
+  position: absolute;
+  top: 20px;
+  left: 140px;  
+  font-size: 48px;
+  color: #000000;
+  padding:0;
+}
+#subTitle {
+  font-size: 24px;
+}
+
+.upperline {
+  display: block;
+  width: 420px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+  text-align: left;
+  margin: 40px;
+  padding-left: 40px;
+}
+#gourmetArea .famous {
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  width: 420px;
+  height: 96px;
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+.upperGourmet {
+  display: flex;
+  justify-content: center;
+}
+
+.lowerGourmet {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.upperGourmet div img {
+  width: 510px;
+  height: 220px;
+  margin: 20px 0;
+}
+.upperGourmet div p {
+  width: 510px;
+  height: 96px;
+  box-sizing: border-box;
+}
+.lowerGourmet div img {
+  width: 510px;
+  height: 220px;
+  margin: 20px 0;
+}
+.lowerGourmet div p {
+  width: 510px;
+  height: 96px;
+  margin-top: 20px;
+  }
+.jumpDish {
+  text-align: left;
+  margin:20px;
+}
+
+.boxTantuu,
+.boxSyaoron {
+  margin-right: 20px;
+}
+.boxEbimesi,
+.boxDucks {
+  margin-left: 20px;
+}
+
+.shirakawa {
+  width: 420px;
+  height: 204px;
+}
+
+.shirakawa h4 {
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.sizen {
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  width: 420px;
+  height: 204px;
+  padding-left: 20px;
+}
+
+.hotSprings ul {
+  display: flex;
+  margin: 20px;
+  padding-left:0;
+}
+.hotSprings ul li {
+  list-style:none;
+}
+.hotSprings ul li img {
+  width: 600px;
+  height: 340px;
+  margin-top: 100px;
+}
+.hotSprings ul li p {
+  width: 420px;
+  height: 192px;
+  font-size: 20px;
+  text-align: left;
+  margin: 180px 100px 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hotels ul {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+  padding-left:0;
+}
+.hotels ul li {
+  height: 214px;
+  width: 510px;
+  margin: 20px;
+  list-style:none;
+}
+.ryokan {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lotus ul {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+  padding-left:0;
+}
+.lotus ul li {
+  list-style:none;
+}
+.bigLotus {
+  width: 600px;
+  height: 325px;
+  margin: 20px;
+}
+.lotusFlower ol li {
+  list-style:none;
+}
+.lotusFlower ol li p {
+  width: 420px;
+  height: 96px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+.lotusFlower ol li img {
+  width: 420px;
+  height: 209px;
+ }
+
+footer {
+  font-family: "Noto Sans JP", serif;
+  }
+
+footer ul li {
+  list-style:none;
+}
+footer div nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .menu  {
+  margin-top: 7vw;
+}
+footer .menu li {
+  border-bottom: solid 1px #fff;
+  width: 25vw;
+  margin-left: 5vw;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #007ab7;
+  color: #fff;
+}
+
+.footerFlex {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.footerMenu {
+  flex-grow: 1;
+}
+
+.gazoumatome {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+
+.gazoumatome .footeLogo {
+  flex: 1;
+  text-align: center;
+  align-content: end;
+}
+
+.gazoumatome .footeLogo img {
+  display: inline;
+  margin: 0;
+}
+
+.gazoumatome .footerIconWrapper {
+  display: flex;
+  flex: 1;
+}
+
+.gazoumatome .footerIcon {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.gazoumatome .footerIcon li {
+  align-content: end;
+  width: 33%;
+  text-align: center;
+}
+
+.footeKokki img {
+  display: block;
+  width: 5vw;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.footeLogo img {
+  display: block;
+  width: 20vw;
+  margin-top: 100px;
+}
+.sen {
+  font-size: 12px;
+  width: 100vw;
+  text-align: center;
+  border-top: 1px solid #03a9f4;
+  padding: 20px 0;
+  color: #fff;
+  background: #007ab7;
+  margin-top: 20px;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  background: #007AB7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s linear;
+}
+
+.loading.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+.spinner {
+  animation: spinner-rotation 1s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loadingText img {
+  animation: fadeIn 3s;
+  opacity: 0;
+  width: 50vw;
+  margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+.loadingText img{
+  width: 80vw;
+  margin-bottom: 30px;
+}
+
+.modalButton, .modalButton2, .modalButton3, .modalButton4 {
+  display: block;
+ text-align: center;
+ max-width: 131.5px;
+ width: 100%;
+ height: 48px;
+ font-size: 12px;
+ }
+ .accessGridContainer {
+   grid-template-columns: 1fr;   
+ }
+ 
+ .accessGridContainer{
+   display: block;
+   max-width: 225px;
+   width: 100%;
+   margin: 0 auto;
+   
+ }
+ 
+ .accessBorder{
+   font-size: 12px;
+  padding-top: 40px;
+   margin-bottom: 40px;
+   padding-bottom: 12px;
+   text-align: end;
+ }
+ 
+ .yuCard{
+   max-width: 95px;
+   width: 100%;
+   height: 61px
+ }
+ 
+ .acGrid1{
+   width:auto;
+   height:auto;
+ }
+ .acGrid2{
+   width:auto;
+   height:auto;
+ }
+ .acGrid3{
+   width:auto;
+   height:auto;
+ }
+ .acGrid4{
+   width:auto;
+   height:auto;
+ }
+ .acGrid5{
+   width:auto;
+   height:auto;
+   margin-top: 20px;
+   margin-bottom:0;
+   padding-bottom: 60px;
+ }
+ 
+ 
+ .pCenter{
+   text-align: start;
+ }
+ 
+ .pJustify{
+ line-height: 1.6em;
+ }
+ 
+ .spacer{
+ display: none;
+ }
+  
+
+#hamburger {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  width: 3rem;
+  height: 2.8rem;
+  border: none;
+& .iconBar{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background: #fff;
+    transition: all 400ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  &:nth-child(1) {
+      top: 0;
+    }
+  &:nth-child(2) {
+      top: 20px;
+  }
+  &:nth-child(3) {
+      bottom: 0;
+  }
+}
+&.active{
+  & .iconBar{
+      background: #000;
+      &:nth-child(1) {
+          background: #fff;
+          transform: translateY(20px) rotate(-45deg);
+      }
+      &:nth-child(2) {
+          opacity: 0;
+      }
+      &:nth-child(3) {
+          background: #fff;
+          transform: translateY(-20px) rotate(45deg);
+        }
+    }
+}
+}
+.menu .menuMenu {
+  display: block;
+  position: absolute;
+  top: 10px;
+}
+.gMenu .menu {
+  position: fixed;
+  display: block;
+  text-align: center;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  padding-top: 10rem;
+  background: #000000d3;
+  transition: all 400ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  & ul{
+      & li a{
+          font-size: 2.5rem;
+          line-height: 3rem;
+          letter-spacing: .85rem;
+          color:#fff;
+          text-decoration: none;
+          text-align: center;
+          margin-bottom: 4rem;
+      }
+  }
+}
+.drawerOpened{
+  & .menu{
+      right: 0;
+  }
+  & #contents{
+      transform: translateX(-150px);
+  }
+}
+
+
+
+body p {
+  font-size: 12px;
+  text-align: center;
+}
+header {
+  display: block;
+  width: 375px;
+  align-items: center;
+  color: #fff;
+  z-index: 101;  
+  position: relative;
+  background-position: center;
+}
+header nav ul li {
+  margin-top: 5vw;
+  border-bottom: 1px solid #fff;
+}
+header nav ul .menuMenu li{
+  border-bottom: 0px  #ffffff00;
+
+}
+.headeLogo{
+  display: none;
+  width: 111px;
+  height: 45px;
+  margin-left: 20px;
+}
+
+.mainVisual {
+  background-image: url("../images/spHeroFullTainan.png");
+  display: block;
+  top: -200px;
+  left: 0; 
+  z-index: 0;
+  width: 375px;
+  height: 667px;
+  justify-content: center;
+  margin: 0 auto;
+  }
+
+.contain {
+  display: block;
+}
+
+.mainLogo {
+  width: 199px;
+  height: 372px;
+  align-self: center;
+  top: 200px;
+}
+.mainVisual nav ul {
+  margin-top: -144px;
+  width: 40px;
+  height: 136px;
+}
+.mainVisual nav p {
+  margin-top: -144px;
+  width: 248px;
+  height: 58px;
+}
+
+.threeAreas {
+  background-color: #ffffff; 
+  margin: 0 20px 0 20px;  
+}
+
+.kokki {
+    padding-top: 7vw;
+    margin-left: 45vw;
+    margin-bottom: 5vw;   
+}
+.kokki img {
+    width: 10vw;
+}
+
+.breadCrumb {
+  margin-top: -200px;
+  background-color: #f4f4f4;
+  padding: 0.5rem;
+}
+
+.breadCrumb ul li {
+  font-size: 12px;
+}
+
+.include {
+  justify-content: center; 
+  margin: 0 auto;   
+}
+.include img {
+  width: 220px;
+  height: 40px;
+  position: relative;
+  left: 76px;
+  top: 10px;
+}
+.include h2 {
+  font-size: 24px;
+  text-align: center;
+}
+#subTitle {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.annpei ul {
+  display: block;
+}
+.annpei ul li {
+  display: block;
+}
+.annpei ul li img {
+  width: 295px;
+  height: 221px;
+}
+.annpei ul li p {
+  font-size: 12px;
+  width: 295px;
+  height: 169.6px;
+  text-align: center;
+}
+.annpei ol {
+  display: block;
+}
+.annpei ol li {
+  display: block;
+}
+.annpeiLight { 
+  display: flex;
+  width: 295px;
+  height: 150px;
+}
+.annpei ol li img {
+  width: 137.5px;
+  height: 150px;
+
+}
+.annpei ol li p {
+  font-size: 12px;
+  width: 295px;
+  height: 53px;
+  text-align: center;
+}
+.annpei li p {
+  padding:12px 0;
+}
+
+.sekikan ul {
+  display: block;
+}
+.sekikan ul li {
+  display: block;
+}
+.sekikan ul li img {
+  width: 295px;
+  height: 221px;
+}
+.sekikan ul li p {
+  font-size: 12px;
+  width: 295px;
+  height: 188.8px;
+  text-align: center;
+}
+
+.sekikan ol {
+  display: block;
+}
+.sekikan ol li {
+  display: block;
+}
+.sekikanLight { 
+  display: flex;
+  width: 295px;
+  height: 150px;
+}
+
+.sekikan ol li img {
+  width: 137.5px;
+  height: 150px;
+}
+.sekikan ol li p {
+  font-size: 12px;
+  width: 295px;
+  height: 75px;
+  text-align: center;
+}
+
+
+.upperGourmet div img {
+  width: 296px;
+  height: 220px;
+  margin: 20px 0;
+}
+.upperGourmet div p {
+  width: 296px;
+  height: 188px;
+  box-sizing: border-box;
+}
+.lowerGourmet div img {
+  width: 296px;
+  height: 220px;
+  margin: 20px 0;
+}
+.lowerGourmet div p {
+  width: 296px;
+  height: 188px;
+  margin-top: 20px;
+  }
+.jumpDish {
+  text-align: left;
+  margin:20px;
+}
+.includeRight {
+  margin: 0 auto;   
+  justify-content: center;
+ }
+ .includeRight img {
+  width: 220px;
+  height: 40px;
+  position: relative;
+  left: -552px;
+  top: 10px;
+ }
+ .includeRight h2 {
+   font-size: 24px;
+   text-align: center;
+   left: -500px;
+ }
+
+ #gourmetArea .famous {
+  font-size: 12px;
+  width: 223px;
+  height: 57.6px;
+ }
+ #gourmetArea h4 {
+  font-size: 24px;
+  text-align: center;
+ }
+.upperGourmet {
+  display: block;
+}
+.lowerGourmet {
+  display: block;
+}
+.upperGourmet div img {
+  width: 335px;
+  height: 130px;
+}
+.lowerGourmet div img {
+  width: 335px;
+  height: 130px;
+}
+
+.boxTantuu ,
+.boxEbimesi ,
+.boxSyaoron ,
+.boxDucks {
+  flex-wrap: wrap;
+  text-align: center;
+}
+.boxTantuu p,
+.boxEbimesi p,
+.boxSyaoron p,
+.boxDucks p {
+  width: 223px;
+  height: 81.6px;
+}
+.lowerGourmet p {
+  width: 223px;
+  height: 81.6px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.jumpDish {
+  text-align: right;
+  margin: 20px;
+}
+.shirakawa h4 {
+  font-size: 24px;
+}
+.shirakawa p {
+  font-size: 12px;
+  text-align: center;
+}
+.hotSprings ul {
+  display: block;
+}
+.hotSprings ul li {
+  display: block;
+  flex-wrap: wrap;
+}
+.hotSprings ul li img {
+  width: 175px;
+  height: 122px;
+}
+.hotSprings ul li p {
+  font-size: 12px;
+  width: 223px;
+  height: 115.2px;
+  text-align: center;
+}
+
+.twoHotels { 
+  display: flex;
+  width: 335px;
+  height: 139.4px;
+}
+.twoHotels li img {
+  width: 157.5px;
+  height: 81px;
+}
+.hotels p {
+  font-size: 12px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.lotus {
+  display: block;
+}
+.hotels .ryokan {
+  font-size: 12px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.lotus ul {
+  display: block;
+}
+.lotus ul li img {
+  width: 175px;
+  height: 122px;
+}
+.lotus ul li p {
+  width: 223px;
+  height: 57.6px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.footerFlex {
+  display: block;
+}
+.footeKokki img{
+  width: 15vw;
+}
+footer .menu {
+  margin-left: 25vw;
+  
+}
+
+footer .menu li {
+  width: 45vw;  
+  font-size: 12px;
+  margin-left: 0;
+  
+}
+.footeLogo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.footerIcon {
+  margin-top: 0vw;
+}
+.gazoumatome {
+  position: relative;
+  margin-top: 20px;
+  height: calc(20vw * 0.4);
+}
+.footerIconWrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  top: calc(50% - 16px);
+}
+
+.sen {
+  width: 100vw;
+}
+}
